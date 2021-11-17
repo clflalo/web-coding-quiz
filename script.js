@@ -26,6 +26,19 @@ let questions = [
     
 }
 ]
+const startBtn = document.querySelector("#start-btn");
+const nextBtn = document.querySelector("#next-btn");
+const endBtn = document.querySelector("#end-btn");
+
+// COME BACK AND FIX START AND NEXT BUTTONS
+
+
+
+
+//startBtn.addEventListener("click", startGame)
+nextBtn.addEventListener("click",function() {
+    questions++;
+})
 
 let currentQuestion = 0
 const question = questions[currentQuestion];

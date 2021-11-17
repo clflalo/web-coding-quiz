@@ -9,19 +9,28 @@
 </head>
 <body>
     <div class="container">
-    
-    <div>
-        <p id="question"></p>
-    <button id="btn1"></button>
-    
+        <div id="test-zone">
+            <div id="question">Question</div>
+            <div id="answers" class="btn-grid"
 
+                <button class="btn"></button>
 
-    </div>
+                <button class="btn"></button>
 
+                <button class="btn"></button>
 
+                <button class="btn"></button>
 
+        </div>
 
-
+        <div class="timer">
+            <p class="timerDisplay" id="time" data-state="hidden">Time:</p>
+        </div>
+        <div class="start-controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="end-btn" class="next-btn btn hide">End</button>
+        </div>
     </div>
     <script src="/script.js"></script>
 </body>
